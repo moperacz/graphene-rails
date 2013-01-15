@@ -1,4 +1,5 @@
 require "graphene-rails/version"
+require 'backbone-rails'
 
 module Graphene
   module Rails

@@ -11,5 +11,7 @@ Gem::Specification.new do |s|
   s.email          = 'marcin.operacz@gmail.com'
 	s.files			     = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
 	s.homepage       = 'https://github.com/moperacz/graphene-rails'
+
   s.add_dependency('backbone-rails', '>=0.9.0')
+  
 end
