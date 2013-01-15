@@ -1,6 +1,6 @@
-require "angular-ui-rails/version"
+require "graphene-rails/version"
 
-module AngularUI
+module Graphene
   module Rails
     class Engine < ::Rails::Engine
     end
