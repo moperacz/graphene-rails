@@ -1,0 +1,95 @@
+
+
+/*
+ *  Gauge Label
+ */
+.glview{
+  text-align: center;
+
+  .metric .value{
+    font-size:6em;
+  }
+
+  .label{
+    background:none;
+  }
+}
+
+
+
+/*
+ * Gauge Gadget
+ */
+.ggview{
+  text-align:center;
+
+  .gauge{
+    circle{
+      &.outer{
+        fill: #101010;
+        stroke: #000;
+        stroke-width: 0.5px;
+      }
+
+      &.inner{
+        fill: #050505;
+        stroke: #000;
+        stroke-width: 2px;
+      }
+
+      &.pointer-circle{
+        fill:#dd0000;
+        stroke:#000;
+        opacity:1;
+      }
+    }
+
+    line{
+      &.small-tick{
+        stroke: red;
+        stroke-opacity:0.3;
+        stroke-width: 1px;
+      }
+
+      &.big-tick{
+        stroke: red;
+        stroke-opacity: 0.8;
+        stroke-width: 2px;
+      }
+    }
+
+
+    text{
+      &.label{
+        fill: red;
+        stroke-width: 0px;
+        fill-opacity:0.4;
+      }
+
+      &.limit{
+        fill: red;
+        stroke-width: 0px;
+        fill-opacity: 0.3;
+      }
+
+      &.value{
+        fill:red;
+        stroke:red;
+        stroke-width:1px;
+      }
+    }
+
+    path{
+      &.pointer{
+        fill:red;
+        stroke:#c63310;
+        fill-opacity: 0.5;
+      }
+
+      &.band{
+        stroke:none;
+        fill-opacity:0.9;
+      }
+    }
+  }
+}
